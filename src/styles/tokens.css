@@ -83,34 +83,34 @@
 .dark,
 [data-theme="dark"] {
   /* Dark theme */
-  --obs-bg-primary: #0f0f12;
-  --obs-bg-secondary: #1a1a1e;
-  --obs-bg-tertiary: #242428;
-  --obs-bg-card: #1e1e22;
+  --obs-bg-primary: #141419;
+  --obs-bg-secondary: #1c1c24;
+  --obs-bg-tertiary: #262630;
+  --obs-bg-card: #1e1e28;
   --obs-bg-overlay: rgba(0, 0, 0, 0.6);
   --obs-border-primary: rgba(255, 255, 255, 0.08);
   --obs-border-secondary: rgba(255, 255, 255, 0.05);
   --obs-border-subtle: rgba(255, 255, 255, 0.03);
-  --obs-text-primary: #f0f0f0;
-  --obs-text-secondary: #b0b0b8;
-  --obs-text-tertiary: #78787e;
-  --obs-text-muted: #54545a;
-  --obs-text-inverse: #0f0f12;
-  --obs-status-success: #34d399;
-  --obs-status-successBg: rgba(52, 211, 153, 0.12);
-  --obs-status-warning: #fbbf24;
-  --obs-status-warningBg: rgba(251, 191, 36, 0.12);
-  --obs-status-danger: #f87171;
-  --obs-status-dangerBg: rgba(248, 113, 113, 0.12);
-  --obs-status-info: #38bdf8;
-  --obs-status-infoBg: rgba(56, 189, 248, 0.12);
-  --obs-accent-default: #34d399;
-  --obs-accent-hover: #2cc08a;
-  --obs-accent-bg: rgba(52, 211, 153, 0.1);
-  --obs-accent-secondary: #38bdf8;
-  --obs-glass-bg: rgba(30, 30, 34, 0.8);
+  --obs-text-primary: #e8e8ec;
+  --obs-text-secondary: #a0a0aa;
+  --obs-text-tertiary: #6e6e78;
+  --obs-text-muted: #4a4a54;
+  --obs-text-inverse: #141419;
+  --obs-status-success: #4ce7a8;
+  --obs-status-successBg: rgba(76, 231, 168, 0.12);
+  --obs-status-warning: #e7a84c;
+  --obs-status-warningBg: rgba(231, 168, 76, 0.12);
+  --obs-status-danger: #e74c4c;
+  --obs-status-dangerBg: rgba(231, 76, 76, 0.12);
+  --obs-status-info: #4ca8e7;
+  --obs-status-infoBg: rgba(76, 168, 231, 0.12);
+  --obs-accent-default: #2dd4a8;
+  --obs-accent-hover: #26b892;
+  --obs-accent-bg: rgba(45, 212, 168, 0.1);
+  --obs-accent-secondary: #4ca8e7;
+  --obs-glass-bg: rgba(28, 28, 36, 0.85);
   --obs-glass-border: rgba(255, 255, 255, 0.06);
-  --obs-shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --obs-shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
   --obs-shadow-md: 0 4px 12px rgba(0,0,0,0.5);
   --obs-shadow-lg: 0 8px 24px rgba(0,0,0,0.6);
 }

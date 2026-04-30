@@ -47,6 +47,9 @@ export { AgentApprovalDialog } from './components/agent/AgentApprovalDialog';
 export { AgentDecisionFlow } from './components/agent/AgentDecisionFlow';
 export { AgentFeedbackCapture } from './components/agent/AgentFeedbackCapture';
 export { AgentTaskMonitor } from './components/agent/AgentTaskMonitor';
+export { WorkflowStep } from './components/agent/WorkflowStep';
+export { CommandOutput } from './components/agent/CommandOutput';
+export { SystemLog } from './components/agent/SystemLog';
 
 // Brain Components
 export { WhatIfSimulator } from './components/brain/WhatIfSimulator';

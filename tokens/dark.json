@@ -1,9 +1,9 @@
 {
   "bg": {
-    "primary":   { "$value": "#0f0f12", "$type": "color", "$description": "Page background" },
-    "secondary": { "$value": "#1a1a1e", "$type": "color", "$description": "Card/panel background" },
-    "tertiary":  { "$value": "#242428", "$type": "color", "$description": "Input/elevated background" },
-    "card":      { "$value": "#1e1e22", "$type": "color", "$description": "Card surface" },
+    "primary":   { "$value": "#141419", "$type": "color", "$description": "Page background" },
+    "secondary": { "$value": "#1c1c24", "$type": "color", "$description": "Card/panel background" },
+    "tertiary":  { "$value": "#262630", "$type": "color", "$description": "Input/elevated background" },
+    "card":      { "$value": "#1e1e28", "$type": "color", "$description": "Card surface" },
     "overlay":   { "$value": "rgba(0, 0, 0, 0.6)", "$type": "color" }
   },
   "border": {
@@ -12,34 +12,34 @@
     "subtle":    { "$value": "rgba(255, 255, 255, 0.03)", "$type": "color" }
   },
   "text": {
-    "primary":   { "$value": "#f0f0f0", "$type": "color" },
-    "secondary": { "$value": "#b0b0b8", "$type": "color" },
-    "tertiary":  { "$value": "#78787e", "$type": "color" },
-    "muted":     { "$value": "#54545a", "$type": "color" },
-    "inverse":   { "$value": "#0f0f12", "$type": "color" }
+    "primary":   { "$value": "#e8e8ec", "$type": "color" },
+    "secondary": { "$value": "#a0a0aa", "$type": "color" },
+    "tertiary":  { "$value": "#6e6e78", "$type": "color" },
+    "muted":     { "$value": "#4a4a54", "$type": "color" },
+    "inverse":   { "$value": "#141419", "$type": "color" }
   },
   "status": {
-    "success":    { "$value": "#34d399", "$type": "color" },
-    "successBg":  { "$value": "rgba(52, 211, 153, 0.12)", "$type": "color" },
-    "warning":    { "$value": "#fbbf24", "$type": "color" },
-    "warningBg":  { "$value": "rgba(251, 191, 36, 0.12)", "$type": "color" },
-    "danger":     { "$value": "#f87171", "$type": "color" },
-    "dangerBg":   { "$value": "rgba(248, 113, 113, 0.12)", "$type": "color" },
-    "info":       { "$value": "#38bdf8", "$type": "color" },
-    "infoBg":     { "$value": "rgba(56, 189, 248, 0.12)", "$type": "color" }
+    "success":    { "$value": "#4ce7a8", "$type": "color" },
+    "successBg":  { "$value": "rgba(76, 231, 168, 0.12)", "$type": "color" },
+    "warning":    { "$value": "#e7a84c", "$type": "color" },
+    "warningBg":  { "$value": "rgba(231, 168, 76, 0.12)", "$type": "color" },
+    "danger":     { "$value": "#e74c4c", "$type": "color" },
+    "dangerBg":   { "$value": "rgba(231, 76, 76, 0.12)", "$type": "color" },
+    "info":       { "$value": "#4ca8e7", "$type": "color" },
+    "infoBg":     { "$value": "rgba(76, 168, 231, 0.12)", "$type": "color" }
   },
   "accent": {
-    "default":  { "$value": "#34d399", "$type": "color", "$description": "Primary accent - Emerald" },
-    "hover":    { "$value": "#2cc08a", "$type": "color" },
-    "bg":       { "$value": "rgba(52, 211, 153, 0.1)", "$type": "color" },
-    "secondary": { "$value": "#38bdf8", "$type": "color", "$description": "Secondary accent - Sky" }
+    "default":   { "$value": "#2dd4a8", "$type": "color", "$description": "Primary accent - Emerald" },
+    "hover":     { "$value": "#26b892", "$type": "color" },
+    "bg":        { "$value": "rgba(45, 212, 168, 0.1)", "$type": "color" },
+    "secondary": { "$value": "#4ca8e7", "$type": "color" }
   },
   "glass": {
-    "bg":     { "$value": "rgba(30, 30, 34, 0.8)", "$type": "color" },
+    "bg":     { "$value": "rgba(28, 28, 36, 0.85)", "$type": "color" },
     "border": { "$value": "rgba(255, 255, 255, 0.06)", "$type": "color" }
   },
   "shadow": {
-    "sm": { "$value": "0 1px 2px rgba(0,0,0,0.4)", "$type": "boxShadow" },
+    "sm": { "$value": "0 1px 3px rgba(0,0,0,0.4)", "$type": "boxShadow" },
     "md": { "$value": "0 4px 12px rgba(0,0,0,0.5)", "$type": "boxShadow" },
     "lg": { "$value": "0 8px 24px rgba(0,0,0,0.6)", "$type": "boxShadow" }
   }
