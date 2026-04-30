@@ -1,46 +1,46 @@
 {
   "bg": {
-    "primary":   { "value": "#ffffff", "type": "color" },
-    "secondary": { "value": "#f7f7f8", "type": "color" },
-    "tertiary":  { "value": "#ededf0", "type": "color" },
-    "card":      { "value": "#ffffff", "type": "color" },
-    "overlay":   { "value": "rgba(0, 0, 0, 0.4)", "type": "color" }
+    "primary":   { "$value": "#ffffff", "$type": "color" },
+    "secondary": { "$value": "#f7f7f8", "$type": "color" },
+    "tertiary":  { "$value": "#ededf0", "$type": "color" },
+    "card":      { "$value": "#ffffff", "$type": "color" },
+    "overlay":   { "$value": "rgba(0, 0, 0, 0.4)", "$type": "color" }
   },
   "border": {
-    "primary":   { "value": "rgba(0, 0, 0, 0.1)", "type": "color" },
-    "secondary": { "value": "rgba(0, 0, 0, 0.06)", "type": "color" },
-    "subtle":    { "value": "rgba(0, 0, 0, 0.03)", "type": "color" }
+    "primary":   { "$value": "rgba(0, 0, 0, 0.1)", "$type": "color" },
+    "secondary": { "$value": "rgba(0, 0, 0, 0.06)", "$type": "color" },
+    "subtle":    { "$value": "rgba(0, 0, 0, 0.03)", "$type": "color" }
   },
   "text": {
-    "primary":   { "value": "#1a1a1e", "type": "color" },
-    "secondary": { "value": "#4a4a52", "type": "color" },
-    "tertiary":  { "value": "#78787e", "type": "color" },
-    "muted":     { "value": "#a0a0a8", "type": "color" },
-    "inverse":   { "value": "#f0f0f0", "type": "color" }
+    "primary":   { "$value": "#1a1a1e", "$type": "color" },
+    "secondary": { "$value": "#4a4a52", "$type": "color" },
+    "tertiary":  { "$value": "#78787e", "$type": "color" },
+    "muted":     { "$value": "#a0a0a8", "$type": "color" },
+    "inverse":   { "$value": "#f0f0f0", "$type": "color" }
   },
   "status": {
-    "success":    { "value": "#16a34a", "type": "color" },
-    "successBg":  { "value": "rgba(22, 163, 74, 0.08)", "type": "color" },
-    "warning":    { "value": "#d97706", "type": "color" },
-    "warningBg":  { "value": "rgba(217, 119, 6, 0.08)", "type": "color" },
-    "danger":     { "value": "#dc2626", "type": "color" },
-    "dangerBg":   { "value": "rgba(220, 38, 38, 0.08)", "type": "color" },
-    "info":       { "value": "#2563eb", "type": "color" },
-    "infoBg":     { "value": "rgba(37, 99, 235, 0.08)", "type": "color" }
+    "success":    { "$value": "#16a34a", "$type": "color" },
+    "successBg":  { "$value": "rgba(22, 163, 74, 0.08)", "$type": "color" },
+    "warning":    { "$value": "#d97706", "$type": "color" },
+    "warningBg":  { "$value": "rgba(217, 119, 6, 0.08)", "$type": "color" },
+    "danger":     { "$value": "#dc2626", "$type": "color" },
+    "dangerBg":   { "$value": "rgba(220, 38, 38, 0.08)", "$type": "color" },
+    "info":       { "$value": "#2563eb", "$type": "color" },
+    "infoBg":     { "$value": "rgba(37, 99, 235, 0.08)", "$type": "color" }
   },
   "accent": {
-    "default":  { "value": "#16a34a", "type": "color", "description": "Primary accent - Green" },
-    "hover":    { "value": "#15803d", "type": "color" },
-    "bg":       { "value": "rgba(22, 163, 74, 0.06)", "type": "color" },
-    "secondary": { "value": "#2563eb", "type": "color" }
+    "default":  { "$value": "#16a34a", "$type": "color", "$description": "Primary accent - Green" },
+    "hover":    { "$value": "#15803d", "$type": "color" },
+    "bg":       { "$value": "rgba(22, 163, 74, 0.06)", "$type": "color" },
+    "secondary": { "$value": "#2563eb", "$type": "color" }
   },
   "glass": {
-    "bg":     { "value": "rgba(255, 255, 255, 0.8)", "type": "color" },
-    "border": { "value": "rgba(0, 0, 0, 0.06)", "type": "color" }
+    "bg":     { "$value": "rgba(255, 255, 255, 0.8)", "$type": "color" },
+    "border": { "$value": "rgba(0, 0, 0, 0.06)", "$type": "color" }
   },
   "shadow": {
-    "sm": { "value": "0 1px 2px rgba(0,0,0,0.05)", "type": "boxShadow" },
-    "md": { "value": "0 4px 12px rgba(0,0,0,0.08)", "type": "boxShadow" },
-    "lg": { "value": "0 8px 24px rgba(0,0,0,0.12)", "type": "boxShadow" }
+    "sm": { "$value": "0 1px 2px rgba(0,0,0,0.05)", "$type": "boxShadow" },
+    "md": { "$value": "0 4px 12px rgba(0,0,0,0.08)", "$type": "boxShadow" },
+    "lg": { "$value": "0 8px 24px rgba(0,0,0,0.12)", "$type": "boxShadow" }
   }
 }

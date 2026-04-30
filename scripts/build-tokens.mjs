@@ -23,8 +23,8 @@ function flattenTokens(obj, prefix = '') {
   const result = [];
   for (const [key, val] of Object.entries(obj)) {
     const path = prefix ? `${prefix}-${key}` : key;
-    if (val && typeof val === 'object' && 'value' in val) {
-      result.push({ name: path, value: val.value, type: val.type });
+    if (val && typeof val === 'object' && ('$value' in val || 'value' in val)) {
+      result.push({ name: path, value: val.$value ?? val.value, type: val.$type ?? val.type });
     } else if (val && typeof val === 'object') {
       result.push(...flattenTokens(val, path));
     }

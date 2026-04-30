@@ -1,57 +1,57 @@
 {
   "fontFamilies": {
-    "sans": { "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", "type": "fontFamilies" },
-    "mono": { "value": "'SF Mono', 'Fira Code', 'Cascadia Code', monospace", "type": "fontFamilies" }
+    "sans": { "$value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", "$type": "fontFamilies" },
+    "mono": { "$value": "'SF Mono', 'Fira Code', 'Cascadia Code', monospace", "$type": "fontFamilies" }
   },
   "fontSize": {
-    "xs": { "value": "10", "type": "fontSizes" },
-    "sm": { "value": "12", "type": "fontSizes" },
-    "base": { "value": "14", "type": "fontSizes" },
-    "lg": { "value": "16", "type": "fontSizes" },
-    "xl": { "value": "20", "type": "fontSizes" },
-    "2xl": { "value": "24", "type": "fontSizes" }
+    "xs": { "$value": "10", "$type": "fontSizes" },
+    "sm": { "$value": "12", "$type": "fontSizes" },
+    "base": { "$value": "14", "$type": "fontSizes" },
+    "lg": { "$value": "16", "$type": "fontSizes" },
+    "xl": { "$value": "20", "$type": "fontSizes" },
+    "2xl": { "$value": "24", "$type": "fontSizes" }
   },
   "fontWeight": {
-    "normal": { "value": "400", "type": "fontWeights" },
-    "medium": { "value": "500", "type": "fontWeights" },
-    "semibold": { "value": "600", "type": "fontWeights" },
-    "bold": { "value": "700", "type": "fontWeights" }
+    "normal": { "$value": "400", "$type": "fontWeights" },
+    "medium": { "$value": "500", "$type": "fontWeights" },
+    "semibold": { "$value": "600", "$type": "fontWeights" },
+    "bold": { "$value": "700", "$type": "fontWeights" }
   },
   "lineHeight": {
-    "tight": { "value": "1.25", "type": "lineHeights" },
-    "normal": { "value": "1.5", "type": "lineHeights" },
-    "relaxed": { "value": "1.75", "type": "lineHeights" }
+    "tight": { "$value": "1.25", "$type": "lineHeights" },
+    "normal": { "$value": "1.5", "$type": "lineHeights" },
+    "relaxed": { "$value": "1.75", "$type": "lineHeights" }
   },
   "spacing": {
-    "0": { "value": "0", "type": "spacing" },
-    "0.5": { "value": "2", "type": "spacing" },
-    "1": { "value": "4", "type": "spacing" },
-    "1.5": { "value": "6", "type": "spacing" },
-    "2": { "value": "8", "type": "spacing" },
-    "3": { "value": "12", "type": "spacing" },
-    "4": { "value": "16", "type": "spacing" },
-    "5": { "value": "20", "type": "spacing" },
-    "6": { "value": "24", "type": "spacing" },
-    "8": { "value": "32", "type": "spacing" }
+    "0": { "$value": "0", "$type": "spacing" },
+    "0.5": { "$value": "2", "$type": "spacing" },
+    "1": { "$value": "4", "$type": "spacing" },
+    "1.5": { "$value": "6", "$type": "spacing" },
+    "2": { "$value": "8", "$type": "spacing" },
+    "3": { "$value": "12", "$type": "spacing" },
+    "4": { "$value": "16", "$type": "spacing" },
+    "5": { "$value": "20", "$type": "spacing" },
+    "6": { "$value": "24", "$type": "spacing" },
+    "8": { "$value": "32", "$type": "spacing" }
   },
   "borderRadius": {
-    "sm": { "value": "4", "type": "borderRadius" },
-    "md": { "value": "6", "type": "borderRadius" },
-    "lg": { "value": "8", "type": "borderRadius" },
-    "xl": { "value": "12", "type": "borderRadius" },
-    "2xl": { "value": "16", "type": "borderRadius" },
-    "full": { "value": "9999", "type": "borderRadius" }
+    "sm": { "$value": "4", "$type": "borderRadius" },
+    "md": { "$value": "6", "$type": "borderRadius" },
+    "lg": { "$value": "8", "$type": "borderRadius" },
+    "xl": { "$value": "12", "$type": "borderRadius" },
+    "2xl": { "$value": "16", "$type": "borderRadius" },
+    "full": { "$value": "9999", "$type": "borderRadius" }
   },
   "borderWidth": {
-    "thin": { "value": "1", "type": "borderWidth" },
-    "medium": { "value": "1.5", "type": "borderWidth" },
-    "thick": { "value": "2", "type": "borderWidth" }
+    "thin": { "$value": "1", "$type": "borderWidth" },
+    "medium": { "$value": "1.5", "$type": "borderWidth" },
+    "thick": { "$value": "2", "$type": "borderWidth" }
   },
   "zone": {
-    "n":  { "value": "#34d399", "type": "color", "description": "Normal zone" },
-    "w":  { "value": "#38bdf8", "type": "color", "description": "Watch zone" },
-    "ww": { "value": "#fbbf24", "type": "color", "description": "Warning zone" },
-    "h":  { "value": "#fb923c", "type": "color", "description": "High zone" },
-    "c":  { "value": "#f87171", "type": "color", "description": "Critical zone" }
+    "n":  { "$value": "#34d399", "$type": "color", "$description": "Normal zone" },
+    "w":  { "$value": "#38bdf8", "$type": "color", "$description": "Watch zone" },
+    "ww": { "$value": "#fbbf24", "$type": "color", "$description": "Warning zone" },
+    "h":  { "$value": "#fb923c", "$type": "color", "$description": "High zone" },
+    "c":  { "$value": "#f87171", "$type": "color", "$description": "Critical zone" }
   }
 }
