@@ -29,6 +29,18 @@ export { ChatStageProgress } from './components/chat/ChatStageProgress';
 export { ChatSuggestionChips } from './components/chat/ChatSuggestionChips';
 export { InlineProofPreview } from './components/chat/InlineProofPreview';
 
+// Chat Content Blocks
+export { FormulaBlock } from './components/chat/blocks/FormulaBlock';
+export { DeltaTable } from './components/chat/blocks/DeltaTable';
+export { VariableChip } from './components/chat/blocks/VariableChip';
+export { UnitStatusCard } from './components/chat/blocks/UnitStatusCard';
+export { SafetyWarningBlock } from './components/chat/blocks/SafetyWarningBlock';
+export { ComputeResultCard } from './components/chat/blocks/ComputeResultCard';
+export { OptimizeResultCard } from './components/chat/blocks/OptimizeResultCard';
+export { CausalPathInline } from './components/chat/blocks/CausalPathInline';
+export { TKRuleCard } from './components/chat/blocks/TKRuleCard';
+export { InlineChart } from './components/chat/blocks/InlineChart';
+
 // Agent Components
 export { AutopilotCyclePanel } from './components/agent/AutopilotCyclePanel';
 export { AgentApprovalDialog } from './components/agent/AgentApprovalDialog';

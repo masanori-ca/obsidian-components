@@ -1,8 +1,7 @@
 /**
  * PCK TypeScript SDK — browser client for the PCK causal engine.
  *
- * Based on C:\PCK\sdk\js\pck-client.js, rewritten in TypeScript
- * with full type definitions for all PCK service APIs.
+ * TypeScript SDK with full type definitions for all PCK service APIs.
  */
 
 // ---------------------------------------------------------------------------

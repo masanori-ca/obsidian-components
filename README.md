@@ -1,6 +1,6 @@
 # Obsidian Components
 
-Industrial AI UI component library for the [PCK (Physical Causal Knowledge)](https://github.com/your-org/pck) platform.
+Industrial AI UI component library for the [PCK (Process Causal Knowledge)](https://github.com/masanori-ca/pck) platform.
 
 React + TypeScript + Tailwind CSS + Framer Motion. Day/Night theme support.
 
@@ -28,7 +28,7 @@ function App() {
 ## Storybook
 
 ```bash
-git clone https://github.com/your-org/obsidian-components.git
+git clone https://github.com/masanori-ca/obsidian-components.git
 cd obsidian-components
 npm install
 npx storybook dev -p 6006

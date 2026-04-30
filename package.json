@@ -1,12 +1,13 @@
 {
   "name": "obsidian-components",
   "version": "0.1.0",
-  "description": "Industrial AI UI component library for PCK (Physical Causal Knowledge) platform",
+  "description": "Industrial AI UI component library for PCK (Process Causal Knowledge) platform",
+  "author": "Masanori Fujita",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/obsidian-components"
+    "url": "https://github.com/masanori-ca/obsidian-components"
   },
   "keywords": ["react", "industrial", "causal-inference", "pck", "ui-components", "storybook"],
   "main": "./src/index.ts",
