@@ -129,6 +129,12 @@ export { Input } from './components/shared/Input';
 export { NumberBadge } from './components/shared/NumberBadge';
 export { ZoneDistributionBar } from './components/shared/ZoneDistributionBar';
 export { DonutGauge } from './components/shared/DonutGauge';
+export { Sidebar } from './components/shared/Sidebar';
+export { Card } from './components/shared/Card';
+export { ToastContainer, useToast } from './components/shared/Toast';
+export { Tabs } from './components/shared/Tabs';
+export { Toggle } from './components/shared/Toggle';
+export { Dropdown } from './components/shared/Dropdown';
 
 // SDK
 export { PCKClient } from './lib/pck-client';
