@@ -1,8 +1,8 @@
-# Obsidian Components
+# Obsidian Design System
 
-Industrial AI UI component library for the [PCK (Process Causal Knowledge)](https://github.com/masanori-ca/pck) platform.
+The UI design system purpose-built for [PCK (Process Causal Knowledge)](https://github.com/masanori-ca/pck) platform.
 
-React + TypeScript + Tailwind CSS + Framer Motion. Day/Night theme support.
+Designed to visualize causal inference, safety barriers, and tacit knowledge in industrial operations. 87 components with Figma-synced design tokens, animated process unit icons, and Day/Night theming.
 
 ## Quick Start
 

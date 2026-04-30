@@ -1,7 +1,7 @@
 {
   "name": "obsidian-components",
   "version": "0.1.0",
-  "description": "Industrial AI UI component library for PCK (Process Causal Knowledge) platform",
+  "description": "Obsidian Design System — Industrial Causal UI for PCK (Process Causal Knowledge) platform",
   "author": "Masanori Fujita",
   "type": "module",
   "license": "MIT",
