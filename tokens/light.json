@@ -1,0 +1,44 @@
+{
+  "bg": {
+    "primary":   { "value": "#ffffff", "type": "color" },
+    "secondary": { "value": "#f4f4f5", "type": "color" },
+    "tertiary":  { "value": "#e4e4e7", "type": "color" },
+    "card":      { "value": "#ffffff", "type": "color" },
+    "overlay":   { "value": "rgba(0, 0, 0, 0.4)", "type": "color" }
+  },
+  "border": {
+    "primary":   { "value": "#d4d4d8", "type": "color" },
+    "secondary": { "value": "#e4e4e7", "type": "color" },
+    "subtle":    { "value": "#f4f4f5", "type": "color" }
+  },
+  "text": {
+    "primary":   { "value": "#09090b", "type": "color" },
+    "secondary": { "value": "#3f3f46", "type": "color" },
+    "tertiary":  { "value": "#71717a", "type": "color" },
+    "muted":     { "value": "#a1a1aa", "type": "color" },
+    "inverse":   { "value": "#fafafa", "type": "color" }
+  },
+  "status": {
+    "success":    { "value": "#16a34a", "type": "color" },
+    "successBg":  { "value": "rgba(22, 163, 74, 0.1)", "type": "color" },
+    "warning":    { "value": "#d97706", "type": "color" },
+    "warningBg":  { "value": "rgba(217, 119, 6, 0.1)", "type": "color" },
+    "danger":     { "value": "#dc2626", "type": "color" },
+    "dangerBg":   { "value": "rgba(220, 38, 38, 0.1)", "type": "color" },
+    "info":       { "value": "#2563eb", "type": "color" },
+    "infoBg":     { "value": "rgba(37, 99, 235, 0.1)", "type": "color" }
+  },
+  "accent": {
+    "default":  { "value": "#2563eb", "type": "color" },
+    "bg":       { "value": "rgba(37, 99, 235, 0.08)", "type": "color" }
+  },
+  "glass": {
+    "bg":     { "value": "rgba(255, 255, 255, 0.7)", "type": "color" },
+    "border": { "value": "rgba(0, 0, 0, 0.08)", "type": "color" }
+  },
+  "shadow": {
+    "sm": { "value": "0 1px 2px rgba(0,0,0,0.05)", "type": "boxShadow" },
+    "md": { "value": "0 4px 6px rgba(0,0,0,0.07)", "type": "boxShadow" },
+    "lg": { "value": "0 10px 15px rgba(0,0,0,0.1)", "type": "boxShadow" }
+  }
+}
