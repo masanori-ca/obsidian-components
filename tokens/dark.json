@@ -1,44 +1,46 @@
 {
   "bg": {
-    "primary":   { "value": "#09090b", "type": "color" },
-    "secondary": { "value": "#18181b", "type": "color" },
-    "tertiary":  { "value": "#27272a", "type": "color" },
-    "card":      { "value": "rgba(24, 24, 27, 0.5)", "type": "color" },
-    "overlay":   { "value": "rgba(0, 0, 0, 0.5)", "type": "color" }
+    "primary":   { "value": "#0f0f12", "type": "color", "description": "Page background" },
+    "secondary": { "value": "#1a1a1e", "type": "color", "description": "Card/panel background" },
+    "tertiary":  { "value": "#242428", "type": "color", "description": "Input/elevated background" },
+    "card":      { "value": "#1e1e22", "type": "color", "description": "Card surface" },
+    "overlay":   { "value": "rgba(0, 0, 0, 0.6)", "type": "color" }
   },
   "border": {
-    "primary":   { "value": "rgba(63, 63, 70, 0.5)", "type": "color" },
-    "secondary": { "value": "rgba(63, 63, 70, 0.3)", "type": "color" },
-    "subtle":    { "value": "rgba(39, 39, 42, 0.5)", "type": "color" }
+    "primary":   { "value": "rgba(255, 255, 255, 0.08)", "type": "color" },
+    "secondary": { "value": "rgba(255, 255, 255, 0.05)", "type": "color" },
+    "subtle":    { "value": "rgba(255, 255, 255, 0.03)", "type": "color" }
   },
   "text": {
-    "primary":   { "value": "#fafafa", "type": "color" },
-    "secondary": { "value": "#d4d4d8", "type": "color" },
-    "tertiary":  { "value": "#a1a1aa", "type": "color" },
-    "muted":     { "value": "#71717a", "type": "color" },
-    "inverse":   { "value": "#09090b", "type": "color" }
+    "primary":   { "value": "#f0f0f0", "type": "color" },
+    "secondary": { "value": "#b0b0b8", "type": "color" },
+    "tertiary":  { "value": "#78787e", "type": "color" },
+    "muted":     { "value": "#54545a", "type": "color" },
+    "inverse":   { "value": "#0f0f12", "type": "color" }
   },
   "status": {
     "success":    { "value": "#34d399", "type": "color" },
-    "successBg":  { "value": "rgba(52, 211, 153, 0.1)", "type": "color" },
+    "successBg":  { "value": "rgba(52, 211, 153, 0.12)", "type": "color" },
     "warning":    { "value": "#fbbf24", "type": "color" },
-    "warningBg":  { "value": "rgba(251, 191, 36, 0.1)", "type": "color" },
+    "warningBg":  { "value": "rgba(251, 191, 36, 0.12)", "type": "color" },
     "danger":     { "value": "#f87171", "type": "color" },
-    "dangerBg":   { "value": "rgba(248, 113, 113, 0.1)", "type": "color" },
+    "dangerBg":   { "value": "rgba(248, 113, 113, 0.12)", "type": "color" },
     "info":       { "value": "#38bdf8", "type": "color" },
-    "infoBg":     { "value": "rgba(56, 189, 248, 0.1)", "type": "color" }
+    "infoBg":     { "value": "rgba(56, 189, 248, 0.12)", "type": "color" }
   },
   "accent": {
-    "default":  { "value": "#38bdf8", "type": "color" },
-    "bg":       { "value": "rgba(56, 189, 248, 0.08)", "type": "color" }
+    "default":  { "value": "#34d399", "type": "color", "description": "Primary accent - Emerald" },
+    "hover":    { "value": "#2cc08a", "type": "color" },
+    "bg":       { "value": "rgba(52, 211, 153, 0.1)", "type": "color" },
+    "secondary": { "value": "#38bdf8", "type": "color", "description": "Secondary accent - Sky" }
   },
   "glass": {
-    "bg":     { "value": "rgba(24, 24, 27, 0.7)", "type": "color" },
-    "border": { "value": "rgba(63, 63, 70, 0.3)", "type": "color" }
+    "bg":     { "value": "rgba(30, 30, 34, 0.8)", "type": "color" },
+    "border": { "value": "rgba(255, 255, 255, 0.06)", "type": "color" }
   },
   "shadow": {
-    "sm": { "value": "0 1px 2px rgba(0,0,0,0.3)", "type": "boxShadow" },
-    "md": { "value": "0 4px 6px rgba(0,0,0,0.4)", "type": "boxShadow" },
-    "lg": { "value": "0 10px 15px rgba(0,0,0,0.5)", "type": "boxShadow" }
+    "sm": { "value": "0 1px 2px rgba(0,0,0,0.4)", "type": "boxShadow" },
+    "md": { "value": "0 4px 12px rgba(0,0,0,0.5)", "type": "boxShadow" },
+    "lg": { "value": "0 8px 24px rgba(0,0,0,0.6)", "type": "boxShadow" }
   }
 }

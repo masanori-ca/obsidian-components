@@ -124,6 +124,11 @@ export { StatusBadge } from './components/shared/StatusBadge';
 export { DataTable } from './components/shared/DataTable';
 export { ConfirmDialog } from './components/shared/ConfirmDialog';
 export { LoadingOverlay } from './components/shared/LoadingOverlay';
+export { Button } from './components/shared/Button';
+export { Input } from './components/shared/Input';
+export { NumberBadge } from './components/shared/NumberBadge';
+export { ZoneDistributionBar } from './components/shared/ZoneDistributionBar';
+export { DonutGauge } from './components/shared/DonutGauge';
 
 // SDK
 export { PCKClient } from './lib/pck-client';
