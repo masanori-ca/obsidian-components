@@ -177,3 +177,13 @@ export type {
 export type {
   Zone,
 } from './components/alert/ZoneIndicator';
+
+// Slide Components (PPT)
+export {
+  SLIDE, FONT, COLOR_SCHEMES, SPACING, SHADOW, LAYOUT, ACCENT_BAR, getSlideCSS,
+  SlideFrame, SlideTitle, SlideGrid, SlideSplit, SlideSection,
+  SlideKpiCard, SlideKpiGrid, SlideTable,
+  SlideFlowPipeline, SlideComparison, SlideTimeline,
+  SlideUseCaseCard, SlideSafetyBarrier,
+} from './components/slides';
+export type { SlideColorScheme } from './components/slides';
